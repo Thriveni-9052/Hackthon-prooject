@@ -127,6 +127,7 @@ jobs:
     - name: Verify Deployment
       run: |
         kubectl get pods
+        
         kubectl get svc
         kubectl rollout status deployment/devops-app
 
