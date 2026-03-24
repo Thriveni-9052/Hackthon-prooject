@@ -2,3 +2,4 @@
 sonar.projectKey=Boardgame
 sonar.projectName=Boardgame
 sonar.java.binaries=.
+
