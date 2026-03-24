@@ -1,6 +1,6 @@
 resource "aws_instance" "devops_vm" {
 
-  ami           = "ami-0ec10929233384c7f"
+  ami           = "ami-0507f5acd9ba8e6b7"
   instance_type = "t3.large"
   key_name      = "cloudfront"
 
@@ -42,3 +42,4 @@ resource "aws_instance" "devops_vm" {
   }
 
 }
+
