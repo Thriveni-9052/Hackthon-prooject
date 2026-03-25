@@ -113,3 +113,4 @@ resource "aws_eks_node_group" "main" {
     aws_iam_role_policy_attachment.eks_ecr_readonly
   ]
 }
+
