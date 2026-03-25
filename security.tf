@@ -27,6 +27,7 @@ resource "aws_security_group" "devops_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+
   ingress {
     description = "Grafana"
     from_port   = 3000
