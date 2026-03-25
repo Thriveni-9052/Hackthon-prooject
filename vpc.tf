@@ -17,7 +17,7 @@ resource "aws_vpc" "devops_vpc" {
 resource "aws_subnet" "public_subnet" {
   vpc_id                  = aws_vpc.devops_vpc.id
   cidr_block              = "192.0.7.0/24"
-  availability_zone       = "ap-northeast-1a"
+  availability_zone       = "us-west-1a"
   map_public_ip_on_launch = true
 
   tags = {
@@ -32,7 +32,7 @@ resource "aws_subnet" "public_subnet" {
 resource "aws_subnet" "public_subnet_2" {
   vpc_id                  = aws_vpc.devops_vpc.id
   cidr_block              = "192.0.8.0/24"
-  availability_zone       = "ap-northeast-1c"
+  availability_zone       = "us-west-1c"
   map_public_ip_on_launch = true
 
   tags = {
